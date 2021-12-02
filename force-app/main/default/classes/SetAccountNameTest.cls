@@ -9,5 +9,12 @@ public with sharing class SetAccountNameTest {
         Test.stopTest();
         
     }
-    
+
+    @IsTest
+     static void             anotherTestMethod    (){ 
+        
+        Test.startTest();
+        
+        Test.stopTest();
+    }
 }
