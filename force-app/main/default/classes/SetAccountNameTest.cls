@@ -16,5 +16,7 @@ public with sharing class SetAccountNameTest {
         Test.startTest();
         
         Test.stopTest();
+
+        System.assert(false);
     }
 }

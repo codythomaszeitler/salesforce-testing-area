@@ -16,6 +16,9 @@ public with sharing class DefaultAccountSelector implements AccountSelector {
 
     public List<SAccount> selectAccounts(List<Id> ids) {
         List<Account> accounts = [SELECT Name FROM Account WHERE Id IN :ids];
+
+        Account account = new Account();
+
         return createAccountFromSObjects(accounts);
     }
 

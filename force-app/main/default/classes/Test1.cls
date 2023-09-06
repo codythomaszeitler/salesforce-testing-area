@@ -15,6 +15,12 @@ public with sharing class Test1 {
      static void             anotherTestMethod    (){ 
         
         Test.startTest();
+        SetAccountName testObject = new SetAccountName();
+        testObject.food();
+        testObject.food();
+
+        SContact contact = new SContact('Test');
+
         
         Test.stopTest();
     }
