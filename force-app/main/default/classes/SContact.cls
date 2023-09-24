@@ -9,7 +9,7 @@ public virtual with sharing class SContact {
     }
 
 
-    public void foo() {
+    public virtual void foo() {
         this.foo();
     }
 }

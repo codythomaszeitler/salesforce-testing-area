@@ -3,7 +3,7 @@ public with sharing class AnotherChildContact extends SContact {
         super('Test');
     }
 
-    public void foo() {
+    public override void foo() {
         this.foo();
     }
 }

@@ -1,0 +1,1620 @@
+{
+  "status": 1,
+  "result": {
+    "checkOnly": false,
+    "completedDate": "2023-09-10T19:35:15.000Z",
+    "createdBy": "0057g000009yTVB",
+    "createdByName": "User User",
+    "createdDate": "2023-09-10T19:35:07.000Z",
+    "details": {
+      "componentFailures": [
+        {
+          "changed": false,
+          "columnNumber": 17,
+          "componentType": "ApexClass",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "classes/AnotherChildContact.cls",
+          "fullName": "AnotherChildContact",
+          "lineNumber": 6,
+          "problem": "Non-virtual, non-abstract methods cannot be overridden: void AnotherChildContact.foo()",
+          "problemType": "Error",
+          "success": false
+        },
+        {
+          "changed": false,
+          "columnNumber": 14,
+          "componentType": "ApexClass",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "classes/SetAccountName.cls",
+          "fullName": "SetAccountName",
+          "lineNumber": 3,
+          "problem": "Variable does not exist: lastName",
+          "problemType": "Error",
+          "success": false
+        },
+        {
+          "changed": false,
+          "columnNumber": 14,
+          "componentType": "ApexClass",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "classes/SetAccountName.cls",
+          "fullName": "SetAccountName",
+          "lineNumber": 4,
+          "problem": "Variable does not exist: firstName",
+          "problemType": "Error",
+          "success": false
+        },
+        {
+          "changed": false,
+          "columnNumber": 14,
+          "componentType": "ApexClass",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "classes/Test1.cls",
+          "fullName": "Test1",
+          "lineNumber": 3,
+          "problem": "Dependent class is invalid and needs recompilation:\n Class SetAccountName : Variable does not exist: lastName",
+          "problemType": "Error",
+          "success": false
+        }
+      ],
+      "componentSuccesses": [
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.AccountNumber",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.AccountSource",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Active__c",
+          "id": "00N7g00000T05CVEAZ",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.AnnualRevenue",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.BillingAddress",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.CleanStatus",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.CustomerPriority__c",
+          "id": "00N7g00000T05CWEAZ",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.DandbCompanyId",
+          "success": true
+        },
+        {
+          "changed": true,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Description",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.DunsNumber",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Fax",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Industry",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Jigsaw",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.NaicsCode",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.NaicsDesc",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Name",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.NumberOfEmployees",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.NumberofLocations__c",
+          "id": "00N7g00000T05CXEAZ",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.OperatingHoursId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.OwnerId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Ownership",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.ParentId",
+          "success": true
+        },
+        {
+          "changed": true,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Phone",
+          "success": true
+        },
+        {
+          "changed": true,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Rating",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.SLAExpirationDate__c",
+          "id": "00N7g00000T05CYEAZ",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.SLASerialNumber__c",
+          "id": "00N7g00000T05CZEAZ",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.SLA__c",
+          "id": "00N7g00000T05CaEAJ",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.ShippingAddress",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Sic",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.SicDesc",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Site",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Test_Field_Name__c",
+          "id": "00N7g00000T05CbEAJ",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.UpsellOpportunity__c",
+          "id": "00N7g00000T05CcEAJ",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Website",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.YearStarted",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.TickerSymbol",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Tier",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Tradestyle",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:13.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Type",
+          "success": true
+        },
+        {
+          "changed": true,
+          "componentType": "ApexClass",
+          "created": true,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "classes/AAnotherChildContact.cls",
+          "fullName": "AAnotherChildContact",
+          "id": "01p7g00000NTct8AAD",
+          "success": true
+        },
+        {
+          "changed": true,
+          "componentType": "",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "package.xml",
+          "fullName": "package.xml",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ApexClass",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "classes/AccountSelector.cls",
+          "fullName": "AccountSelector",
+          "id": "01p7g00000N4HKYAA3",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ApexClass",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "classes/AnotherTestClass.cls",
+          "fullName": "AnotherTestClass",
+          "id": "01p7g00000N4HKaAAN",
+          "success": true
+        },
+        {
+          "changed": true,
+          "componentType": "ApexClass",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "classes/ChildContact.cls",
+          "fullName": "ChildContact",
+          "id": "01p7g00000N4HKbAAN",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ApexClass",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "classes/Command.cls",
+          "fullName": "Command",
+          "id": "01p7g00000N4HKcAAN",
+          "success": true
+        },
+        {
+          "changed": true,
+          "componentType": "ApexClass",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "classes/CommandExecutor.cls",
+          "fullName": "CommandExecutor",
+          "id": "01p7g00000N4HKdAAN",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ApexClass",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "classes/CommandFactory.cls",
+          "fullName": "CommandFactory",
+          "id": "01p7g00000N4HKeAAN",
+          "success": true
+        },
+        {
+          "changed": true,
+          "componentType": "ApexClass",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "classes/DefaultAccountSelector.cls",
+          "fullName": "DefaultAccountSelector",
+          "id": "01p7g00000N4HKfAAN",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ApexClass",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "classes/SAccount.cls",
+          "fullName": "SAccount",
+          "id": "01p7g00000N4HKgAAN",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ApexClass",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "classes/SAccountConverter.cls",
+          "fullName": "SAccountConverter",
+          "id": "01p7g00000N4HKhAAN",
+          "success": true
+        },
+        {
+          "changed": true,
+          "componentType": "ApexClass",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "classes/SContact.cls",
+          "fullName": "SContact",
+          "id": "01p7g00000N4HKiAAN",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ApexClass",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "classes/SetAccountNameService.cls",
+          "fullName": "SetAccountNameService",
+          "id": "01p7g00000N4HKkAAN",
+          "success": true
+        },
+        {
+          "changed": true,
+          "componentType": "ApexClass",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "classes/SetAccountNameServiceTest.cls",
+          "fullName": "SetAccountNameServiceTest",
+          "id": "01p7g00000N4HKlAAN",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ApexClass",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "classes/SetAccountNameTest.cls",
+          "fullName": "SetAccountNameTest",
+          "id": "01p7g00000N4HKmAAN",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ApexClass",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "classes/Test2.cls",
+          "fullName": "Test2",
+          "id": "01p7g00000N4HKoAAN",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ApexClass",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "classes/Test3.cls",
+          "fullName": "Test3",
+          "id": "01p7g00000N4HKpAAN",
+          "success": true
+        },
+        {
+          "changed": true,
+          "componentType": "LightningComponentBundle",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "lwc/testClass",
+          "fullName": "testClass",
+          "id": "0Rb7g000001wTnWCAU",
+          "success": true
+        },
+        {
+          "changed": true,
+          "componentType": "LightningComponentBundle",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "lwc/testerLwc",
+          "fullName": "testerLwc",
+          "id": "0Rb7g000001wTnXCAU",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomObject",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account",
+          "success": true
+        },
+        {
+          "changed": true,
+          "componentType": "WebLink",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Billing",
+          "id": "00b7g000003islGAAQ",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.AllAccounts",
+          "id": "00B7g00000AuW2BEAV",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.MyAccounts",
+          "id": "00B7g00000AuW2CEAV",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.NewLastWeek",
+          "id": "00B7g00000AuW2DEAV",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.NewThisWeek",
+          "id": "00B7g00000AuW2EEAV",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.PlatinumandGoldSLACustomers",
+          "id": "00B7g00000AuW2FEAV",
+          "success": true
+        },
+        {
+          "changed": true,
+          "componentType": "ApexClass",
+          "created": false,
+          "createdDate": "2023-09-10T19:35:15.000Z",
+          "deleted": false,
+          "fileName": "classes/ABCDEF.cls",
+          "fullName": "ABCDEF",
+          "id": "01p7g00000N4HKXAA3",
+          "success": true
+        }
+      ],
+      "runTestResult": {
+        "numFailures": 0,
+        "numTestsRun": 0,
+        "totalTime": 0,
+        "codeCoverage": [],
+        "codeCoverageWarnings": [],
+        "failures": [],
+        "flowCoverage": [],
+        "flowCoverageWarnings": [],
+        "successes": []
+      }
+    },
+    "done": true,
+    "id": "0Af7g00001kdQ8uCAE",
+    "ignoreWarnings": false,
+    "lastModifiedDate": "2023-09-10T19:35:15.000Z",
+    "numberComponentErrors": 4,
+    "numberComponentsDeployed": 65,
+    "numberComponentsTotal": 69,
+    "numberTestErrors": 0,
+    "numberTestsCompleted": 0,
+    "numberTestsTotal": 0,
+    "rollbackOnError": true,
+    "runTestsEnabled": false,
+    "startDate": "2023-09-10T19:35:08.000Z",
+    "status": "Failed",
+    "success": false,
+    "files": [
+      {
+        "fullName": "AAnotherChildContact",
+        "type": "ApexClass",
+        "state": "Created",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\AAnotherChildContact.cls"
+      },
+      {
+        "fullName": "AAnotherChildContact",
+        "type": "ApexClass",
+        "state": "Created",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\AAnotherChildContact.cls-meta.xml"
+      },
+      {
+        "fullName": "ABCDEF",
+        "type": "ApexClass",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\ABCDEF.cls"
+      },
+      {
+        "fullName": "ABCDEF",
+        "type": "ApexClass",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\ABCDEF.cls-meta.xml"
+      },
+      {
+        "fullName": "AccountSelector",
+        "type": "ApexClass",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\AccountSelector.cls"
+      },
+      {
+        "fullName": "AccountSelector",
+        "type": "ApexClass",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\AccountSelector.cls-meta.xml"
+      },
+      {
+        "fullName": "AnotherChildContact",
+        "type": "ApexClass",
+        "state": "Failed",
+        "error": "Non-virtual, non-abstract methods cannot be overridden: void AnotherChildContact.foo() (6:17)",
+        "problemType": "Error",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\AnotherChildContact.cls",
+        "lineNumber": 6,
+        "columnNumber": 17
+      },
+      {
+        "fullName": "AnotherTestClass",
+        "type": "ApexClass",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\AnotherTestClass.cls"
+      },
+      {
+        "fullName": "AnotherTestClass",
+        "type": "ApexClass",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\AnotherTestClass.cls-meta.xml"
+      },
+      {
+        "fullName": "ChildContact",
+        "type": "ApexClass",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\ChildContact.cls"
+      },
+      {
+        "fullName": "ChildContact",
+        "type": "ApexClass",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\ChildContact.cls-meta.xml"
+      },
+      {
+        "fullName": "Command",
+        "type": "ApexClass",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\Command.cls"
+      },
+      {
+        "fullName": "Command",
+        "type": "ApexClass",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\Command.cls-meta.xml"
+      },
+      {
+        "fullName": "CommandExecutor",
+        "type": "ApexClass",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\CommandExecutor.cls"
+      },
+      {
+        "fullName": "CommandExecutor",
+        "type": "ApexClass",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\CommandExecutor.cls-meta.xml"
+      },
+      {
+        "fullName": "CommandFactory",
+        "type": "ApexClass",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\CommandFactory.cls"
+      },
+      {
+        "fullName": "CommandFactory",
+        "type": "ApexClass",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\CommandFactory.cls-meta.xml"
+      },
+      {
+        "fullName": "DefaultAccountSelector",
+        "type": "ApexClass",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\DefaultAccountSelector.cls"
+      },
+      {
+        "fullName": "DefaultAccountSelector",
+        "type": "ApexClass",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\DefaultAccountSelector.cls-meta.xml"
+      },
+      {
+        "fullName": "SAccount",
+        "type": "ApexClass",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\SAccount.cls"
+      },
+      {
+        "fullName": "SAccount",
+        "type": "ApexClass",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\SAccount.cls-meta.xml"
+      },
+      {
+        "fullName": "SAccountConverter",
+        "type": "ApexClass",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\SAccountConverter.cls"
+      },
+      {
+        "fullName": "SAccountConverter",
+        "type": "ApexClass",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\SAccountConverter.cls-meta.xml"
+      },
+      {
+        "fullName": "SContact",
+        "type": "ApexClass",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\SContact.cls"
+      },
+      {
+        "fullName": "SContact",
+        "type": "ApexClass",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\SContact.cls-meta.xml"
+      },
+      {
+        "fullName": "SetAccountName",
+        "type": "ApexClass",
+        "state": "Failed",
+        "error": "Variable does not exist: firstName (4:14)",
+        "problemType": "Error",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\SetAccountName.cls",
+        "lineNumber": 4,
+        "columnNumber": 14
+      },
+      {
+        "fullName": "SetAccountName",
+        "type": "ApexClass",
+        "state": "Failed",
+        "error": "Variable does not exist: lastName (3:14)",
+        "problemType": "Error",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\SetAccountName.cls",
+        "lineNumber": 3,
+        "columnNumber": 14
+      },
+      {
+        "fullName": "SetAccountNameService",
+        "type": "ApexClass",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\SetAccountNameService.cls"
+      },
+      {
+        "fullName": "SetAccountNameService",
+        "type": "ApexClass",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\SetAccountNameService.cls-meta.xml"
+      },
+      {
+        "fullName": "SetAccountNameServiceTest",
+        "type": "ApexClass",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\SetAccountNameServiceTest.cls"
+      },
+      {
+        "fullName": "SetAccountNameServiceTest",
+        "type": "ApexClass",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\SetAccountNameServiceTest.cls-meta.xml"
+      },
+      {
+        "fullName": "SetAccountNameTest",
+        "type": "ApexClass",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\SetAccountNameTest.cls"
+      },
+      {
+        "fullName": "SetAccountNameTest",
+        "type": "ApexClass",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\SetAccountNameTest.cls-meta.xml"
+      },
+      {
+        "fullName": "Test1",
+        "type": "ApexClass",
+        "state": "Failed",
+        "error": "Dependent class is invalid and needs recompilation:\n Class SetAccountName : Variable does not exist: lastName (3:14)",
+        "problemType": "Error",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\Test1.cls",
+        "lineNumber": 3,
+        "columnNumber": 14
+      },
+      {
+        "fullName": "Test2",
+        "type": "ApexClass",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\Test2.cls"
+      },
+      {
+        "fullName": "Test2",
+        "type": "ApexClass",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\Test2.cls-meta.xml"
+      },
+      {
+        "fullName": "Test3",
+        "type": "ApexClass",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\Test3.cls"
+      },
+      {
+        "fullName": "Test3",
+        "type": "ApexClass",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\classes\\Test3.cls-meta.xml"
+      },
+      {
+        "fullName": "Account.AccountNumber",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\AccountNumber.field-meta.xml"
+      },
+      {
+        "fullName": "Account.AccountNumber",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\AccountNumber.field-meta.xml"
+      },
+      {
+        "fullName": "Account.AccountSource",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\AccountSource.field-meta.xml"
+      },
+      {
+        "fullName": "Account.AccountSource",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\AccountSource.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Active__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Active__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Active__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Active__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.AnnualRevenue",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\AnnualRevenue.field-meta.xml"
+      },
+      {
+        "fullName": "Account.AnnualRevenue",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\AnnualRevenue.field-meta.xml"
+      },
+      {
+        "fullName": "Account.BillingAddress",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\BillingAddress.field-meta.xml"
+      },
+      {
+        "fullName": "Account.BillingAddress",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\BillingAddress.field-meta.xml"
+      },
+      {
+        "fullName": "Account.CleanStatus",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\CleanStatus.field-meta.xml"
+      },
+      {
+        "fullName": "Account.CleanStatus",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\CleanStatus.field-meta.xml"
+      },
+      {
+        "fullName": "Account.CustomerPriority__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\CustomerPriority__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.CustomerPriority__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\CustomerPriority__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.DandbCompanyId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\DandbCompanyId.field-meta.xml"
+      },
+      {
+        "fullName": "Account.DandbCompanyId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\DandbCompanyId.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Description",
+        "type": "CustomField",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Description.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Description",
+        "type": "CustomField",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Description.field-meta.xml"
+      },
+      {
+        "fullName": "Account.DunsNumber",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\DunsNumber.field-meta.xml"
+      },
+      {
+        "fullName": "Account.DunsNumber",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\DunsNumber.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Fax",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Fax.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Fax",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Fax.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Industry",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Industry.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Industry",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Industry.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Jigsaw",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Jigsaw.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Jigsaw",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Jigsaw.field-meta.xml"
+      },
+      {
+        "fullName": "Account.NaicsCode",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\NaicsCode.field-meta.xml"
+      },
+      {
+        "fullName": "Account.NaicsCode",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\NaicsCode.field-meta.xml"
+      },
+      {
+        "fullName": "Account.NaicsDesc",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\NaicsDesc.field-meta.xml"
+      },
+      {
+        "fullName": "Account.NaicsDesc",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\NaicsDesc.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Name",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Name.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Name",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Name.field-meta.xml"
+      },
+      {
+        "fullName": "Account.NumberOfEmployees",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\NumberOfEmployees.field-meta.xml"
+      },
+      {
+        "fullName": "Account.NumberOfEmployees",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\NumberOfEmployees.field-meta.xml"
+      },
+      {
+        "fullName": "Account.NumberofLocations__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\NumberofLocations__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.NumberofLocations__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\NumberofLocations__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.OperatingHoursId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\OperatingHoursId.field-meta.xml"
+      },
+      {
+        "fullName": "Account.OperatingHoursId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\OperatingHoursId.field-meta.xml"
+      },
+      {
+        "fullName": "Account.OwnerId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\OwnerId.field-meta.xml"
+      },
+      {
+        "fullName": "Account.OwnerId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\OwnerId.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Ownership",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Ownership.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Ownership",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Ownership.field-meta.xml"
+      },
+      {
+        "fullName": "Account.ParentId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\ParentId.field-meta.xml"
+      },
+      {
+        "fullName": "Account.ParentId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\ParentId.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Phone",
+        "type": "CustomField",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Phone.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Phone",
+        "type": "CustomField",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Phone.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Rating",
+        "type": "CustomField",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Rating.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Rating",
+        "type": "CustomField",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Rating.field-meta.xml"
+      },
+      {
+        "fullName": "Account.SLAExpirationDate__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\SLAExpirationDate__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.SLAExpirationDate__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\SLAExpirationDate__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.SLASerialNumber__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\SLASerialNumber__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.SLASerialNumber__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\SLASerialNumber__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.SLA__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\SLA__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.SLA__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\SLA__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.ShippingAddress",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\ShippingAddress.field-meta.xml"
+      },
+      {
+        "fullName": "Account.ShippingAddress",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\ShippingAddress.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Sic",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Sic.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Sic",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Sic.field-meta.xml"
+      },
+      {
+        "fullName": "Account.SicDesc",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\SicDesc.field-meta.xml"
+      },
+      {
+        "fullName": "Account.SicDesc",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\SicDesc.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Site",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Site.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Site",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Site.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Test_Field_Name__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Test_Field_Name__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Test_Field_Name__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Test_Field_Name__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.TickerSymbol",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\TickerSymbol.field-meta.xml"
+      },
+      {
+        "fullName": "Account.TickerSymbol",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\TickerSymbol.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Tier",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Tier.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Tier",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Tier.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Tradestyle",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Tradestyle.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Tradestyle",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Tradestyle.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Type",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Type.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Type",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Type.field-meta.xml"
+      },
+      {
+        "fullName": "Account.UpsellOpportunity__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\UpsellOpportunity__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.UpsellOpportunity__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\UpsellOpportunity__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Website",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Website.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Website",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\Website.field-meta.xml"
+      },
+      {
+        "fullName": "Account.YearStarted",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\YearStarted.field-meta.xml"
+      },
+      {
+        "fullName": "Account.YearStarted",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\fields\\YearStarted.field-meta.xml"
+      },
+      {
+        "fullName": "Account",
+        "type": "CustomObject",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\Account.object-meta.xml"
+      },
+      {
+        "fullName": "testClass",
+        "type": "LightningComponentBundle",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\lwc\\testClass\\testClass.html"
+      },
+      {
+        "fullName": "testClass",
+        "type": "LightningComponentBundle",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\lwc\\testClass\\testClass.js"
+      },
+      {
+        "fullName": "testClass",
+        "type": "LightningComponentBundle",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\lwc\\testClass\\testClass.js-meta.xml"
+      },
+      {
+        "fullName": "testerLwc",
+        "type": "LightningComponentBundle",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\lwc\\testerLwc\\testerLwc.html"
+      },
+      {
+        "fullName": "testerLwc",
+        "type": "LightningComponentBundle",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\lwc\\testerLwc\\testerLwc.js"
+      },
+      {
+        "fullName": "testerLwc",
+        "type": "LightningComponentBundle",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\lwc\\testerLwc\\testerLwc.js-meta.xml"
+      },
+      {
+        "fullName": "Account.AllAccounts",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\listViews\\AllAccounts.listView-meta.xml"
+      },
+      {
+        "fullName": "Account.AllAccounts",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\listViews\\AllAccounts.listView-meta.xml"
+      },
+      {
+        "fullName": "Account.MyAccounts",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\listViews\\MyAccounts.listView-meta.xml"
+      },
+      {
+        "fullName": "Account.MyAccounts",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\listViews\\MyAccounts.listView-meta.xml"
+      },
+      {
+        "fullName": "Account.NewLastWeek",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\listViews\\NewLastWeek.listView-meta.xml"
+      },
+      {
+        "fullName": "Account.NewLastWeek",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\listViews\\NewLastWeek.listView-meta.xml"
+      },
+      {
+        "fullName": "Account.NewThisWeek",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\listViews\\NewThisWeek.listView-meta.xml"
+      },
+      {
+        "fullName": "Account.NewThisWeek",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\listViews\\NewThisWeek.listView-meta.xml"
+      },
+      {
+        "fullName": "Account.PlatinumandGoldSLACustomers",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\listViews\\PlatinumandGoldSLACustomers.listView-meta.xml"
+      },
+      {
+        "fullName": "Account.PlatinumandGoldSLACustomers",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\listViews\\PlatinumandGoldSLACustomers.listView-meta.xml"
+      },
+      {
+        "fullName": "Account.Billing",
+        "type": "WebLink",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\webLinks\\Billing.webLink-meta.xml"
+      },
+      {
+        "fullName": "Account.Billing",
+        "type": "WebLink",
+        "state": "Changed",
+        "filePath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\force-app\\main\\default\\objects\\Account\\webLinks\\Billing.webLink-meta.xml"
+      }
+    ]
+  },
+  "warnings": []
+}
