@@ -3,6 +3,10 @@
     {
       "path": "force-app",
       "default": true
+    },
+    {
+      "path": ".zf/offlineSymbolTable/a123",
+      "default": false 
     }
   ],
   "name": "salesforce-unit-tests",
