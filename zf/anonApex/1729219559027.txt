@@ -1,0 +1,64 @@
+62.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO
+Execute Anonymous: Account acc = new Account();
+Execute Anonymous: acc.Name = 'Trailhead Opp';
+Execute Anonymous: insert acc;
+Execute Anonymous: 
+Execute Anonymous: Opportunity opp = new Opportunity();
+Execute Anonymous: opp.Name = 'Trailhead Opp';
+Execute Anonymous: opp.Amount = 10000;
+Execute Anonymous: opp.CloseDate = System.today();
+Execute Anonymous: opp.AccountId = acc.Id;
+Execute Anonymous: opp.StageName = 'Open';
+Execute Anonymous: insert opp;
+Execute Anonymous: 
+Execute Anonymous: System.debug(opp.Id);
+19:46:02.46 (46748584)|USER_INFO|[EXTERNAL]|0052E00000JfF8D|codyzeitler12@playful-bear-5awd3r.com|(GMT-07:00) Pacific Daylight Time (America/Los_Angeles)|GMT-07:00
+19:46:02.46 (46785710)|EXECUTION_STARTED
+19:46:02.46 (46902551)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+19:46:02.46 (64582658)|CODE_UNIT_STARTED|[EXTERNAL]|01q2E000000kix2|HelloWorldTrigger on Account trigger event BeforeInsert|__sfdc_trigger/HelloWorldTrigger
+19:46:02.65 (65358608)|CUMULATIVE_LIMIT_USAGE
+19:46:02.65 (65358608)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+19:46:02.65 (65358608)|CUMULATIVE_LIMIT_USAGE_END
+
+19:46:02.46 (65845794)|CODE_UNIT_FINISHED|HelloWorldTrigger on Account trigger event BeforeInsert|__sfdc_trigger/HelloWorldTrigger
+19:46:02.46 (93658806)|CODE_UNIT_STARTED|[EXTERNAL]|Workflow:Account
+19:46:02.46 (120040235)|CODE_UNIT_FINISHED|Workflow:Account
+19:46:02.46 (206445675)|CODE_UNIT_STARTED|[EXTERNAL]|Workflow:Opportunity
+19:46:02.46 (836813943)|CODE_UNIT_FINISHED|Workflow:Opportunity
+19:46:02.46 (860409213)|CODE_UNIT_STARTED|[EXTERNAL]|Workflow:Account
+19:46:02.46 (877713405)|CODE_UNIT_FINISHED|Workflow:Account
+19:46:02.46 (881918148)|USER_DEBUG|[13]|DEBUG|006Hu00001c2yJOIAY
+19:46:02.923 (923156586)|CUMULATIVE_LIMIT_USAGE
+19:46:02.923 (923156586)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 2 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 2 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 2 out of 10000
+  Maximum CPU time: 80 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+19:46:02.923 (923156586)|CUMULATIVE_LIMIT_USAGE_END
+
+19:46:02.46 (923289586)|CODE_UNIT_FINISHED|execute_anonymous_apex
+19:46:02.46 (923316349)|EXECUTION_FINISHED
