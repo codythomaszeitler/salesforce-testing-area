@@ -1,13 +1,8 @@
-Account acc = new Account();
-acc.Name = 'Trailhead Opp';
-insert acc;
+List<Account> accounts = new List<Account>();
+for (Integer i = 0; i < 100; i++) {
+	Account acc = new Account();
+	acc.Name = 'Account ' + i;
 
-Opportunity opp = new Opportunity();
-opp.Name = 'Trailhead Opp';
-opp.Amount = 10000;
-opp.CloseDate = System.today();
-opp.AccountId = acc.Id;
-opp.StageName = 'Open';
-insert opp;
-
-System.debug(opp.Id);
+	accounts.add(acc);
+}
+insert accounts;
