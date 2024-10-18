@@ -1,0 +1,61 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "ApexClass",
+          "url": "/services/data/v59.0/tooling/sobjects/ApexClass/01p8F00000KhjKSQAZ"
+        },
+        "Id": "01p8F00000KhjKSQAZ",
+        "Name": "OnlyHasEmptyConstructor",
+        "SymbolTable": {
+          "constructors": [
+            {
+              "annotations": [],
+              "location": {
+                "column": 12,
+                "line": 2
+              },
+              "modifiers": [
+                "public"
+              ],
+              "name": "OnlyHasEmptyConstructor",
+              "parameters": [],
+              "references": [],
+              "type": null
+            }
+          ],
+          "externalReferences": [],
+          "id": "OnlyHasEmptyConstructor",
+          "innerClasses": [],
+          "interfaces": [],
+          "key": "OnlyHasEmptyConstructor",
+          "methods": [],
+          "name": "OnlyHasEmptyConstructor",
+          "namespace": null,
+          "parentClass": "",
+          "properties": [],
+          "tableDeclaration": {
+            "annotations": [],
+            "location": {
+              "column": 27,
+              "line": 1
+            },
+            "modifiers": [
+              "public",
+              "with sharing"
+            ],
+            "name": "OnlyHasEmptyConstructor",
+            "references": [],
+            "type": "OnlyHasEmptyConstructor"
+          },
+          "variables": []
+        }
+      }
+    ],
+    "totalSize": 5,
+    "done": true
+  },
+  "warnings": []
+}

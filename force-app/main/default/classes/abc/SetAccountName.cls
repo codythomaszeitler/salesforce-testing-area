@@ -18,9 +18,3 @@ public with sharing class SetAccountName {
         throw new IllegalArgumentException('This is an illegal argument exception');
     }
 }
-
-// But cody we kneed to be honest here...
-// Why do we not just grab the entire org from the sf org get 
-
-// Man this is going to get annoying... where can we put apex files such that 
-// the user's sfdx-project.json does not have to be affected.

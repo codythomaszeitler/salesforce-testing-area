@@ -1,0 +1,62 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "ApexClass",
+          "url": "/services/data/v59.0/tooling/sobjects/ApexClass/01p8F00000KhjKXQAZ"
+        },
+        "Id": "01p8F00000KhjKXQAZ",
+        "Name": "OnlyHasVoidPublicMethod",
+        "SymbolTable": {
+          "constructors": [],
+          "externalReferences": [],
+          "id": "OnlyHasVoidPublicMethod",
+          "innerClasses": [],
+          "interfaces": [],
+          "key": "OnlyHasVoidPublicMethod",
+          "methods": [
+            {
+              "annotations": [],
+              "location": {
+                "column": 17,
+                "line": 2
+              },
+              "modifiers": [
+                "public"
+              ],
+              "name": "foo",
+              "parameters": [],
+              "references": [],
+              "returnType": "void",
+              "type": null
+            }
+          ],
+          "name": "OnlyHasVoidPublicMethod",
+          "namespace": null,
+          "parentClass": "",
+          "properties": [],
+          "tableDeclaration": {
+            "annotations": [],
+            "location": {
+              "column": 27,
+              "line": 1
+            },
+            "modifiers": [
+              "public",
+              "with sharing"
+            ],
+            "name": "OnlyHasVoidPublicMethod",
+            "references": [],
+            "type": "OnlyHasVoidPublicMethod"
+          },
+          "variables": []
+        }
+      }
+    ],
+    "totalSize": 6,
+    "done": true
+  },
+  "warnings": []
+}

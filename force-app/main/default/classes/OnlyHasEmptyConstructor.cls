@@ -1,5 +1,5 @@
-public with sharing class OnlyHasEmptyConstructor {
+class OnlyHasEmptyConstructor {
     public OnlyHasEmptyConstructor() {
-
+        Schema.SObjectField sObjField = Account.Name;
     }
-}
+} 
