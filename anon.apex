@@ -1,8 +1,6 @@
-List<Account> accounts = new List<Account>();
+List<Case> cases = new List<Case>();
 for (Integer i = 0; i < 100; i++) {
-	Account acc = new Account();
-	acc.Name = 'Account ' + i;
-
-	accounts.add(acc);
+	Case cse = new Case();
+	cases.add(cse);
 }
-insert accounts;
+insert cases;

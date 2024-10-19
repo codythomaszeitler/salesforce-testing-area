@@ -1,0 +1,1 @@
+SELECT Id, Status FROM Case
