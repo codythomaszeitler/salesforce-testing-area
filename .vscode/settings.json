@@ -4,5 +4,6 @@
     "**/bower_components": true,
     "**/.sfdx": true
   },
-  "salesforcedx-vscode-apex.java.home": "/usr/lib/jvm/java-21-openjdk-amd64"
+  "salesforcedx-vscode-apex.java.home": "/usr/lib/jvm/java-21-openjdk-amd64",
+  "salesforcedx-vscode-core.push-or-deploy-on-save.enabled": false
 }
