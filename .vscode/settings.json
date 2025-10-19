@@ -4,5 +4,5 @@
     "**/bower_components": true,
     "**/.sfdx": true
   },
-  "salesforcedx-vscode-apex.java.home": "/Library/Java/JavaVirtualMachines/jdk-11.0.13.jdk/Contents/Home/"
+  "salesforcedx-vscode-apex.java.home": "/usr/lib/jvm/java-21-openjdk-amd64"
 }
